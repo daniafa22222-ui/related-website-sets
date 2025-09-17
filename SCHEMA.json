@@ -1,10 +1,10 @@
 {
     "type": "object",
-    "additionalProperties": false,
+    "additionalProperties": true,
     "properties": {
         "sets":  {
             "type": "array",
-            "uniqueItems": true,
+            "uniqueItems": false,
             "items": {
                 "type": "object",
                 "additionalProperties": false,
